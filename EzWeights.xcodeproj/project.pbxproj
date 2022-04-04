@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		659246BA27FAA78B003857B9 /* EzWeightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246B927FAA78B003857B9 /* EzWeightsApp.swift */; };
+		659246BC27FAA78B003857B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246BB27FAA78B003857B9 /* ContentView.swift */; };
+		659246BE27FAA793003857B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659246BD27FAA793003857B9 /* Assets.xcassets */; };
+		659246C127FAA793003857B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659246C027FAA793003857B9 /* Preview Assets.xcassets */; };
+		659246C327FAA793003857B9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246C227FAA793003857B9 /* Persistence.swift */; };
+		659246C627FAA793003857B9 /* EzWeights.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 659246C427FAA793003857B9 /* EzWeights.xcdatamodeld */; };
+		659246D027FAA793003857B9 /* EzWeightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246CF27FAA793003857B9 /* EzWeightsTests.swift */; };
+		659246DA27FAA793003857B9 /* EzWeightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246D927FAA793003857B9 /* EzWeightsUITests.swift */; };
+		659246DC27FAA794003857B9 /* EzWeightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246DB27FAA794003857B9 /* EzWeightsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		659246CC27FAA793003857B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 659246AE27FAA78B003857B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659246B527FAA78B003857B9;
+			remoteInfo = EzWeights;
+		};
+		659246D627FAA793003857B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 659246AE27FAA78B003857B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659246B527FAA78B003857B9;
+			remoteInfo = EzWeights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		659246B627FAA78B003857B9 /* EzWeights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzWeights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		659246B927FAA78B003857B9 /* EzWeightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzWeightsApp.swift; sourceTree = "<group>"; };
+		659246BB27FAA78B003857B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		659246BD27FAA793003857B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		659246C027FAA793003857B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		659246C227FAA793003857B9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		659246C527FAA793003857B9 /* EzWeights.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EzWeights.xcdatamodel; sourceTree = "<group>"; };
+		659246CB27FAA793003857B9 /* EzWeightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzWeightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		659246CF27FAA793003857B9 /* EzWeightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzWeightsTests.swift; sourceTree = "<group>"; };
+		659246D527FAA793003857B9 /* EzWeightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzWeightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		659246D927FAA793003857B9 /* EzWeightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzWeightsUITests.swift; sourceTree = "<group>"; };
+		659246DB27FAA794003857B9 /* EzWeightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzWeightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659246B327FAA78B003857B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659246C827FAA793003857B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659246D227FAA793003857B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659246AD27FAA78B003857B9 = {
+			isa = PBXGroup;
+			children = (
+				659246B827FAA78B003857B9 /* EzWeights */,
+				659246CE27FAA793003857B9 /* EzWeightsTests */,
+				659246D827FAA793003857B9 /* EzWeightsUITests */,
+				659246B727FAA78B003857B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		659246B727FAA78B003857B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659246B627FAA78B003857B9 /* EzWeights.app */,
+				659246CB27FAA793003857B9 /* EzWeightsTests.xctest */,
+				659246D527FAA793003857B9 /* EzWeightsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659246B827FAA78B003857B9 /* EzWeights */ = {
+			isa = PBXGroup;
+			children = (
+				659246B927FAA78B003857B9 /* EzWeightsApp.swift */,
+				659246BB27FAA78B003857B9 /* ContentView.swift */,
+				659246BD27FAA793003857B9 /* Assets.xcassets */,
+				659246C227FAA793003857B9 /* Persistence.swift */,
+				659246C427FAA793003857B9 /* EzWeights.xcdatamodeld */,
+				659246BF27FAA793003857B9 /* Preview Content */,
+			);
+			path = EzWeights;
+			sourceTree = "<group>";
+		};
+		659246BF27FAA793003857B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				659246C027FAA793003857B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		659246CE27FAA793003857B9 /* EzWeightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				659246CF27FAA793003857B9 /* EzWeightsTests.swift */,
+			);
+			path = EzWeightsTests;
+			sourceTree = "<group>";
+		};
+		659246D827FAA793003857B9 /* EzWeightsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				659246D927FAA793003857B9 /* EzWeightsUITests.swift */,
+				659246DB27FAA794003857B9 /* EzWeightsUITestsLaunchTests.swift */,
+			);
+			path = EzWeightsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659246B527FAA78B003857B9 /* EzWeights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659246DF27FAA794003857B9 /* Build configuration list for PBXNativeTarget "EzWeights" */;
+			buildPhases = (
+				659246B227FAA78B003857B9 /* Sources */,
+				659246B327FAA78B003857B9 /* Frameworks */,
+				659246B427FAA78B003857B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzWeights;
+			productName = EzWeights;
+			productReference = 659246B627FAA78B003857B9 /* EzWeights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		659246CA27FAA793003857B9 /* EzWeightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659246E227FAA794003857B9 /* Build configuration list for PBXNativeTarget "EzWeightsTests" */;
+			buildPhases = (
+				659246C727FAA793003857B9 /* Sources */,
+				659246C827FAA793003857B9 /* Frameworks */,
+				659246C927FAA793003857B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				659246CD27FAA793003857B9 /* PBXTargetDependency */,
+			);
+			name = EzWeightsTests;
+			productName = EzWeightsTests;
+			productReference = 659246CB27FAA793003857B9 /* EzWeightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		659246D427FAA793003857B9 /* EzWeightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659246E527FAA794003857B9 /* Build configuration list for PBXNativeTarget "EzWeightsUITests" */;
+			buildPhases = (
+				659246D127FAA793003857B9 /* Sources */,
+				659246D227FAA793003857B9 /* Frameworks */,
+				659246D327FAA793003857B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				659246D727FAA793003857B9 /* PBXTargetDependency */,
+			);
+			name = EzWeightsUITests;
+			productName = EzWeightsUITests;
+			productReference = 659246D527FAA793003857B9 /* EzWeightsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659246AE27FAA78B003857B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					659246B527FAA78B003857B9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					659246CA27FAA793003857B9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 659246B527FAA78B003857B9;
+					};
+					659246D427FAA793003857B9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 659246B527FAA78B003857B9;
+					};
+				};
+			};
+			buildConfigurationList = 659246B127FAA78B003857B9 /* Build configuration list for PBXProject "EzWeights" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 659246AD27FAA78B003857B9;
+			productRefGroup = 659246B727FAA78B003857B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659246B527FAA78B003857B9 /* EzWeights */,
+				659246CA27FAA793003857B9 /* EzWeightsTests */,
+				659246D427FAA793003857B9 /* EzWeightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659246B427FAA78B003857B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659246C127FAA793003857B9 /* Preview Assets.xcassets in Resources */,
+				659246BE27FAA793003857B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659246C927FAA793003857B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659246D327FAA793003857B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659246B227FAA78B003857B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659246C627FAA793003857B9 /* EzWeights.xcdatamodeld in Sources */,
+				659246C327FAA793003857B9 /* Persistence.swift in Sources */,
+				659246BC27FAA78B003857B9 /* ContentView.swift in Sources */,
+				659246BA27FAA78B003857B9 /* EzWeightsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659246C727FAA793003857B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659246D027FAA793003857B9 /* EzWeightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659246D127FAA793003857B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659246DA27FAA793003857B9 /* EzWeightsUITests.swift in Sources */,
+				659246DC27FAA794003857B9 /* EzWeightsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		659246CD27FAA793003857B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 659246B527FAA78B003857B9 /* EzWeights */;
+			targetProxy = 659246CC27FAA793003857B9 /* PBXContainerItemProxy */;
+		};
+		659246D727FAA793003857B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 659246B527FAA78B003857B9 /* EzWeights */;
+			targetProxy = 659246D627FAA793003857B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		659246DD27FAA794003857B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		659246DE27FAA794003857B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		659246E027FAA794003857B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EzWeights/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilian.EzWeights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		659246E127FAA794003857B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EzWeights/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilian.EzWeights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		659246E327FAA794003857B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilian.EzWeightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzWeights.app/EzWeights";
+			};
+			name = Debug;
+		};
+		659246E427FAA794003857B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilian.EzWeightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzWeights.app/EzWeights";
+			};
+			name = Release;
+		};
+		659246E627FAA794003857B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilian.EzWeightsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EzWeights;
+			};
+			name = Debug;
+		};
+		659246E727FAA794003857B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilian.EzWeightsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EzWeights;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659246B127FAA78B003857B9 /* Build configuration list for PBXProject "EzWeights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659246DD27FAA794003857B9 /* Debug */,
+				659246DE27FAA794003857B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659246DF27FAA794003857B9 /* Build configuration list for PBXNativeTarget "EzWeights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659246E027FAA794003857B9 /* Debug */,
+				659246E127FAA794003857B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659246E227FAA794003857B9 /* Build configuration list for PBXNativeTarget "EzWeightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659246E327FAA794003857B9 /* Debug */,
+				659246E427FAA794003857B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659246E527FAA794003857B9 /* Build configuration list for PBXNativeTarget "EzWeightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659246E627FAA794003857B9 /* Debug */,
+				659246E727FAA794003857B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		659246C427FAA793003857B9 /* EzWeights.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				659246C527FAA793003857B9 /* EzWeights.xcdatamodel */,
+			);
+			currentVersion = 659246C527FAA793003857B9 /* EzWeights.xcdatamodel */;
+			path = EzWeights.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 659246AE27FAA78B003857B9 /* Project object */;
+}
