@@ -9,12 +9,16 @@ import SwiftUI
 
 @main
 struct EzWeightsApp: App {
-    let persistenceController = PersistenceController.shared
+    @ObservedObject var appState = AppState()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            WelcomeView()
+                .environmentObject(appState)
         }
     }
+}
+
+final class AppState : ObservableObject {
+    @Published var rootViewId = UUID()
 }

@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6530607A280B5AEF00310307 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65306079280B5AEE00310307 /* WelcomeViewModel.swift */; };
+		6530607E280BA72500310307 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6530607D280BA72500310307 /* WorkoutView.swift */; };
+		65306080280BA73900310307 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6530607F280BA73900310307 /* WorkoutViewModel.swift */; };
+		65306084280E202F00310307 /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65306083280E202F00310307 /* EditViewModel.swift */; };
+		65306086280E3A5F00310307 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65306085280E3A5F00310307 /* EditView.swift */; };
+		653419FE281A6E2900EE4FD8 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653419FD281A6E2900EE4FD8 /* CoreData.swift */; };
+		65341A05281BAC5500EE4FD8 /* Routine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65341A01281BAC5500EE4FD8 /* Routine+CoreDataClass.swift */; };
+		65341A06281BAC5500EE4FD8 /* Routine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65341A02281BAC5500EE4FD8 /* Routine+CoreDataProperties.swift */; };
 		659246BA27FAA78B003857B9 /* EzWeightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246B927FAA78B003857B9 /* EzWeightsApp.swift */; };
-		659246BC27FAA78B003857B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246BB27FAA78B003857B9 /* ContentView.swift */; };
 		659246BE27FAA793003857B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659246BD27FAA793003857B9 /* Assets.xcassets */; };
 		659246C127FAA793003857B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659246C027FAA793003857B9 /* Preview Assets.xcassets */; };
-		659246C327FAA793003857B9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246C227FAA793003857B9 /* Persistence.swift */; };
 		659246C627FAA793003857B9 /* EzWeights.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 659246C427FAA793003857B9 /* EzWeights.xcdatamodeld */; };
 		659246D027FAA793003857B9 /* EzWeightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246CF27FAA793003857B9 /* EzWeightsTests.swift */; };
 		659246DA27FAA793003857B9 /* EzWeightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246D927FAA793003857B9 /* EzWeightsUITests.swift */; };
 		659246DC27FAA794003857B9 /* EzWeightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246DB27FAA794003857B9 /* EzWeightsUITestsLaunchTests.swift */; };
+		659246F027FE917A003857B9 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246EF27FE9179003857B9 /* WelcomeView.swift */; };
+		659246F227FFFE97003857B9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659246F127FFFE97003857B9 /* Colors.swift */; };
+		65A449DE281BAECE005C7F6E /* Exercise+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A449DC281BAECE005C7F6E /* Exercise+CoreDataClass.swift */; };
+		65A449DF281BAECE005C7F6E /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A449DD281BAECE005C7F6E /* Exercise+CoreDataProperties.swift */; };
+		65A449E1281BBF23005C7F6E /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A449E0281BBF22005C7F6E /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +47,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65306079280B5AEE00310307 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		6530607D280BA72500310307 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		6530607F280BA73900310307 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		65306083280E202F00310307 /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
+		65306085280E3A5F00310307 /* EditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditView.swift; path = ../../../../../../.Trash/EditView.swift; sourceTree = "<group>"; };
+		653419FD281A6E2900EE4FD8 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		65341A01281BAC5500EE4FD8 /* Routine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Routine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		65341A02281BAC5500EE4FD8 /* Routine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Routine+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		659246B627FAA78B003857B9 /* EzWeights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzWeights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659246B927FAA78B003857B9 /* EzWeightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzWeightsApp.swift; sourceTree = "<group>"; };
-		659246BB27FAA78B003857B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		659246BD27FAA793003857B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		659246C027FAA793003857B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		659246C227FAA793003857B9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		659246C527FAA793003857B9 /* EzWeights.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EzWeights.xcdatamodel; sourceTree = "<group>"; };
 		659246CB27FAA793003857B9 /* EzWeightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzWeightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659246CF27FAA793003857B9 /* EzWeightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzWeightsTests.swift; sourceTree = "<group>"; };
 		659246D527FAA793003857B9 /* EzWeightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzWeightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659246D927FAA793003857B9 /* EzWeightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzWeightsUITests.swift; sourceTree = "<group>"; };
 		659246DB27FAA794003857B9 /* EzWeightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzWeightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		659246EF27FE9179003857B9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		659246F127FFFE97003857B9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		65A449DC281BAECE005C7F6E /* Exercise+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataClass.swift"; sourceTree = "<group>"; };
+		65A449DD281BAECE005C7F6E /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		65A449E0281BBF22005C7F6E /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataStore.swift; path = ../../../../../../.Trash/DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +120,11 @@
 		659246B827FAA78B003857B9 /* EzWeights */ = {
 			isa = PBXGroup;
 			children = (
+				659246E827FBE60D003857B9 /* Models */,
+				659246EA27FBE61F003857B9 /* ViewModels */,
+				659246E927FBE614003857B9 /* Views */,
 				659246B927FAA78B003857B9 /* EzWeightsApp.swift */,
-				659246BB27FAA78B003857B9 /* ContentView.swift */,
 				659246BD27FAA793003857B9 /* Assets.xcassets */,
-				659246C227FAA793003857B9 /* Persistence.swift */,
 				659246C427FAA793003857B9 /* EzWeights.xcdatamodeld */,
 				659246BF27FAA793003857B9 /* Preview Content */,
 			);
@@ -131,6 +154,40 @@
 				659246DB27FAA794003857B9 /* EzWeightsUITestsLaunchTests.swift */,
 			);
 			path = EzWeightsUITests;
+			sourceTree = "<group>";
+		};
+		659246E827FBE60D003857B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65A449DC281BAECE005C7F6E /* Exercise+CoreDataClass.swift */,
+				65A449DD281BAECE005C7F6E /* Exercise+CoreDataProperties.swift */,
+				65341A01281BAC5500EE4FD8 /* Routine+CoreDataClass.swift */,
+				65341A02281BAC5500EE4FD8 /* Routine+CoreDataProperties.swift */,
+				653419FD281A6E2900EE4FD8 /* CoreData.swift */,
+				65A449E0281BBF22005C7F6E /* DataStore.swift */,
+				659246F127FFFE97003857B9 /* Colors.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		659246E927FBE614003857B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65306085280E3A5F00310307 /* EditView.swift */,
+				659246EF27FE9179003857B9 /* WelcomeView.swift */,
+				6530607D280BA72500310307 /* WorkoutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		659246EA27FBE61F003857B9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				65306083280E202F00310307 /* EditViewModel.swift */,
+				65306079280B5AEE00310307 /* WelcomeViewModel.swift */,
+				6530607F280BA73900310307 /* WorkoutViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +320,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65306084280E202F00310307 /* EditViewModel.swift in Sources */,
+				65341A05281BAC5500EE4FD8 /* Routine+CoreDataClass.swift in Sources */,
+				65A449DF281BAECE005C7F6E /* Exercise+CoreDataProperties.swift in Sources */,
+				65306080280BA73900310307 /* WorkoutViewModel.swift in Sources */,
+				65A449DE281BAECE005C7F6E /* Exercise+CoreDataClass.swift in Sources */,
+				65341A06281BAC5500EE4FD8 /* Routine+CoreDataProperties.swift in Sources */,
+				6530607A280B5AEF00310307 /* WelcomeViewModel.swift in Sources */,
+				653419FE281A6E2900EE4FD8 /* CoreData.swift in Sources */,
+				65306086280E3A5F00310307 /* EditView.swift in Sources */,
+				659246F227FFFE97003857B9 /* Colors.swift in Sources */,
 				659246C627FAA793003857B9 /* EzWeights.xcdatamodeld in Sources */,
-				659246C327FAA793003857B9 /* Persistence.swift in Sources */,
-				659246BC27FAA78B003857B9 /* ContentView.swift in Sources */,
 				659246BA27FAA78B003857B9 /* EzWeightsApp.swift in Sources */,
+				6530607E280BA72500310307 /* WorkoutView.swift in Sources */,
+				65A449E1281BBF23005C7F6E /* DataStore.swift in Sources */,
+				659246F027FE917A003857B9 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EzWeights/Preview Content\"";
+				DEVELOPMENT_TEAM = 75DKXAM9C6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -453,6 +522,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EzWeights/Preview Content\"";
+				DEVELOPMENT_TEAM = 75DKXAM9C6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
