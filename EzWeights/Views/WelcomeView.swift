@@ -25,7 +25,7 @@ struct WelcomeView: View {
                     ForEach(0..<viewModel.routines.count, id: \.self) { index in
                         HStack{
                             NavigationLink(
-                                destination: EditView(viewModel: EditViewModel(currRoutine: viewModel.routines[editIndex])),
+                                destination: EditView(viewModel: EditViewModel(currRoutine: viewModel.routines[index])),
                                 label: {
                                     Text(viewModel.routines[index].name)
                                         .foregroundColor(Colors.text)
@@ -40,7 +40,7 @@ struct WelcomeView: View {
                                     showConfirmationDialogue = true
                                     editIndex = index
                                 },
-                                label: {Text("✏️")}
+                                label: {Text("❌")}
                             )
                                 .padding()
                                 .background(Colors.add)
@@ -64,23 +64,14 @@ struct WelcomeView: View {
                     }
                 }
                 .confirmationDialog(
-                    "edit/delete workout",
-                    isPresented: $showConfirmationDialogue
+                    "Are you sure?",
+                    isPresented: $showConfirmationDialogue,
+                    titleVisibility: .visible
                 ){
-                    Button("Edit"){
-                            viewModel.editTriggered = true
-                    }
-                    Button("Delete", role: .destructive){
+                    Button("Yes, delete workout", role: .destructive){
                         viewModel.removeRoutine(idx: editIndex)
                     }
                 }
-                .background(
-                    NavigationLink(
-                        destination: EditView(viewModel: EditViewModel(currRoutine: viewModel.routines[editIndex])),
-                        isActive: .constant(viewModel.editTriggered),
-                        label: { EmptyView()}
-                    )
-                )
             }
             .id(appState.rootViewId)
         }
