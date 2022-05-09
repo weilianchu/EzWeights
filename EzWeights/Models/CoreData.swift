@@ -46,7 +46,7 @@ class CoreData: ObservableObject {
             var exerciseModels = [ExerciseModel]()
             for item in routine.exercises {
                 if let exercise = item as? Exercise {
-                    let exerciseModel = ExerciseModel(name: exercise.name, sets: exercise.sets, reps: exercise.reps, weight: exercise.weight)
+                    let exerciseModel = ExerciseModel(name: exercise.name, weight: exercise.weight, log: exercise.log)
                     exerciseModels.append(exerciseModel)
                 } else {
                     print("item in routine.exercise could not be converted to exercise")
@@ -69,8 +69,7 @@ class CoreData: ObservableObject {
         for exerciseModel in routineModel.exercises {
             let exercise = Exercise(context: self.container.viewContext)
             exercise.name = exerciseModel.name
-            exercise.sets = exerciseModel.sets
-            exercise.reps = exerciseModel.reps
+            exercise.log = exerciseModel.log
             exercise.weight = exerciseModel.weight
             exercises.append(exercise)
             

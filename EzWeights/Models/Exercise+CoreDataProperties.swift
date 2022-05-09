@@ -2,7 +2,7 @@
 //  Exercise+CoreDataProperties.swift
 //  EzWeights
 //
-//  Created by Weilian Chu on 4/28/22.
+//  Created by Weilian Chu on 5/8/22.
 //
 //
 
@@ -17,11 +17,8 @@ extension Exercise {
     }
 
     @NSManaged public var name: String
-    @NSManaged public var reps: Int16
-    @NSManaged public var sets: Int16
     @NSManaged public var weight: Int16
-    @NSManaged public var routine: Routine?
-
+    @NSManaged public var log: String
 }
 
 extension Exercise : Identifiable {

@@ -2,7 +2,7 @@
 //  Exercise+CoreDataClass.swift
 //  EzWeights
 //
-//  Created by Weilian Chu on 4/28/22.
+//  Created by Weilian Chu on 5/8/22.
 //
 //
 
@@ -13,17 +13,15 @@ import CoreData
 public class Exercise: NSManagedObject {
 
 }
- 
+
 struct ExerciseModel {
     public var name: String
-    public var sets: Int16
-    public var reps: Int16
+    public var log: String
     public var weight: Int16
     
-    init(name: String, sets: Int16, reps: Int16, weight: Int16) {
+    init(name: String, weight: Int16, log: String) {
         self.name = name
-        self.sets = sets
-        self.reps = reps
         self.weight = weight
+        self.log = log
     }
 }

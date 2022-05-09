@@ -18,12 +18,12 @@ class EditViewModel: ObservableObject {
         existingName = currRoutine.name
         workoutName = currRoutine.name
         for exercise in currRoutine.exercises {
-            inputs.append(ExerciseModel(name: exercise.name, sets: exercise.sets, reps: exercise.reps, weight: exercise.weight))
+            inputs.append(ExerciseModel(name: exercise.name, weight: exercise.weight, log: exercise.log))
         }
     }
     
     func addExercise() {
-        inputs.append(ExerciseModel(name: "", sets: 0, reps: 0, weight: 0))
+        inputs.append(ExerciseModel(name: "", weight: 0, log: ""))
     }
     
     func removeExercise(index: Int) {
